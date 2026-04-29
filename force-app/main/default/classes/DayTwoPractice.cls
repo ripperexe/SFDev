@@ -11,16 +11,12 @@ public class DayTwoPractice {
 
         // 2. The For Loop: Read this as "For every String (let's call it 'acc') in the accountNames List..."
         for (String acc : accountNames) {
-            
             // 3. The If/Else Statement: Check the data
             if (acc == 'Test Account') {
                 System.debug('⚠️ Skipping test data: ' + acc);
             } else {
                 System.debug('✅ Processing valid account: ' + acc);
-            
-    
             }
         }
-
     }
-    }
+}
